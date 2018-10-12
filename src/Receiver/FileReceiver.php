@@ -9,8 +9,9 @@ use Pion\Laravel\ChunkUpload\Handler\AbstractHandler;
 use Pion\Laravel\ChunkUpload\Save\AbstractSave;
 use Pion\Laravel\ChunkUpload\Save\ChunkSave;
 use Pion\Laravel\ChunkUpload\Save\SingleSave;
-use Illuminate\Http\UploadedFile;
 use Pion\Laravel\ChunkUpload\Storage\ChunkStorage;
+//use Illuminate\Http\UploadedFile;
+use Symfony\Component\HttpFoundation\File\UploadedFile;
 
 class FileReceiver
 {

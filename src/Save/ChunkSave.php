@@ -6,7 +6,8 @@ use Pion\Laravel\ChunkUpload\Config\AbstractConfig;
 use Pion\Laravel\ChunkUpload\Exceptions\ChunkSaveException;
 use Pion\Laravel\ChunkUpload\FileMerger;
 use Pion\Laravel\ChunkUpload\Handler\AbstractHandler;
-use Illuminate\Http\UploadedFile;
+//use Illuminate\Http\UploadedFile;
+use Symfony\Component\HttpFoundation\File\UploadedFile;
 use Pion\Laravel\ChunkUpload\Storage\ChunkStorage;
 
 class ChunkSave extends AbstractSave
