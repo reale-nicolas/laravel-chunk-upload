@@ -50,7 +50,8 @@ class ChunkFile
 
     public function getAbsolutePath()
     {
-        return $this->storage->disk()->path($this->path);
+        return storage_path("app/". $this->path);
+//        return $this->storage->disk()->path($this->path);
     }
 
     /**
